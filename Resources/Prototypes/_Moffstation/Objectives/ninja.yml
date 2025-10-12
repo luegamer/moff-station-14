@@ -1,0 +1,109 @@
+- type: entity
+  parent: BaseNinjaObjective
+  id: NinjaIntelObjective
+  components:
+  - type: Objective
+    icon:
+      sprite: Objects/Misc/folders.rsi
+      state: folder-centcom
+    title: objective-condition-title-intel
+    description: objective-condition-description-intel
+  - type: SimpleObjective
+
+- type: entity
+  parent: BaseNinjaObjective
+  id: NinjaLawsetObjective
+  components:
+  - type: Objective
+    icon:
+      sprite: ai_card.rsi
+      state: empty
+    title: objective-condition-title-lawset
+    description: objective-condition-description-lawset
+  - type: SabotageObjective
+
+- type: entity
+  parent: BaseNinjaObjective
+  id: NinjaAnnouncementObjective
+  components:
+  - type: Objective
+    icon:
+      sprite: communication.rsi
+      state: radio
+    title: objective-condition-title-announcement
+    description: objective-condition-description-announcement
+  - type: SimpleObjective
+
+- type: entity
+  parent: BaseNinjaObjective
+  id: NinjaTsujigiriObjective
+  components:
+  - Type: Objective
+    icon:
+      sprite: ancient.rsi
+      state: icon
+    title: objective-condition-title-tsujigiri
+    description: objective-condition-description-tsujigiri
+  - type: ViolenceObjective
+
+- type: entity
+  parent: BaseNinjaObjective
+  id: NinjaKindnessObjective
+  components:
+  - type: Objective
+    icon:
+      sprite: pacified.rsi
+      state: icon
+    title: objective-condition-title-kindness
+    description: objective-condition-description-kindness
+  - type: SimpleObjective
+  - type: Helpful
+
+- type: entity
+  parent: BaseNinjaObjective
+  id: NinjaCapitalObjectived
+  components:
+  - type: Objective
+    icon:
+      sprite: cash.rsi
+      state: cash
+    title: objective-condition-title-capital
+    description: objective-condition-description-capital
+  - type: StealObjective
+
+- type: entity
+  parent: BaseNinjaObjective
+  id: NinjaHumiliateObjective
+  components:
+  - type: Objective
+    icon:
+      sprite: 
+      state:
+    title: objective-condition-title-humiliate
+    description: objective-condition-description-humiliate
+  - type: Helpful
+
+- type: entity
+  parent: BaseNinjaObjective
+  id: NinjaTechnologyObjective
+  components:  
+  - type: Objective
+    icon:
+      sprite:
+      state:
+    title: objective-condition-title-technology
+    description: objective-condition-description-technology
+  - type: StealObjective
+
+- type: entity
+  parent: BaseNinjaObjective
+  id: Ninja
+  components:
+  - type: Objective
+    icon:
+      sprite:
+      state:
+    title: objective-condition-title-
+    description: objective-condition-description-
+  - type: 
+
