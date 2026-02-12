@@ -8,8 +8,8 @@
       connections:
       - torso
       organs:
-        brain: OrganHumanBrain
-        eyes: OrganHumanEyes
+        brain: OrganAvaliBrain # Moffstation - Avali organ overhaul
+        eyes: OrganAvaliEyes # Moffstation - Avali organ overhaul
     torso:
       part: TorsoAvali
       connections:
@@ -17,12 +17,12 @@
       - left_arm
       - right_leg
       - left_leg
-      organs:
+      organs: 
         heart: OrganAvaliHeart # Moffstation - Allow avali to drink ammonia
-        lungs: OrganHumanLungs
+        lungs: OrganAvaliLungs # Moffstation - Avali organ overhaul
         stomach: OrganAvaliStomach # Moffstation - Allow avali to drink ammonia
         liver: OrganAvaliLiver # Moffstation - Allow avali to drink ammonia
-        kidneys: OrganHumanKidneys
+        kidneys: OrganAvaliKidneys # Moffstation - Avali organ overhaul
     right_arm:
       part: RightArmAvali
       connections:

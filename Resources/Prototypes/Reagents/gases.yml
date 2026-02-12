@@ -237,7 +237,7 @@
       - !type:Oxygenate
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Vox, Slime ]
+          type: [ Vox, Slime, Avali ] # Moffstation change - Avali breathing changes
       # Converts Nitrogen into Ammonia
       - !type:ModifyLungGas
         conditions:
@@ -249,7 +249,7 @@
       - !type:ModifyLungGas
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Slime ]
+          type: [ Slime, Avali ] # Moffstation change - Avali breathing changes
         ratios:
           NitrousOxide: 1.0
           Nitrogen: -1.0
@@ -276,7 +276,7 @@
         minScale: 0.2
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Slime ]
+          type: [ Slime, Avali ] # Moffstation change - Avali breathing changes
           inverted: true
         emote: Laugh
         showInChat: true
@@ -285,7 +285,7 @@
         minScale: 0.2
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Slime ]
+          type: [ Slime, Avali ] # Moffstation change - Avali breathing changes
           inverted: true
         emote: Scream
         showInChat: true
@@ -294,7 +294,7 @@
         minScale: 0.5
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Slime ]
+          type: [ Slime, Avali ] # Moffstation change - Avali breathing changes
           inverted: true
         type: Local
         visualType: Medium
@@ -304,7 +304,7 @@
         minScale: 1
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Slime ]
+          type: [ Slime, Avali ] # Moffstation change - Avali breathing changes
           inverted: true
         walkSpeedModifier: 0.65
         sprintSpeedModifier: 0.65
@@ -312,7 +312,7 @@
         minScale: 1.8
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Slime ]
+          type: [ Slime, Avali ] # Moffstation change - Avali breathing changes
           inverted: true
         effectProto: StatusEffectForcedSleeping
         time: 3
@@ -321,7 +321,7 @@
         minScale: 3.5
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Slime ]
+          type: [ Slime, Avali ] # Moffstation change - Avali breathing changes
           inverted: true
         ignoreResistances: true
         damage:

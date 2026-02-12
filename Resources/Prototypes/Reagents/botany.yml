@@ -239,7 +239,7 @@
       - !type:HealthChange
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Rat ]
+          type: [ Rat, Avali ] # Moffstation modification for Avali. Why should Avali be poisoned by and vomit up something they actively drink when breathed?
           inverted: true
         - !type:ReagentCondition
           reagent: Ammonia
@@ -252,7 +252,7 @@
         probability: 0.12
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Rat, Vox ]
+          type: [ Rat, Vox, Avali ] # Moffstation modification for Avali 
           inverted: true
         - !type:ReagentCondition
           reagent: Ammonia

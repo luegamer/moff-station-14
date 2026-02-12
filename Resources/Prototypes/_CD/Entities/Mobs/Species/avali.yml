@@ -23,7 +23,7 @@
   - type: Speech
     speechVerb: Parrot
     speechSounds: MaleAvali
-    allowedEmotes: ['Hiss']
+    allowedEmotes: ['Hiss'] # Moffstation Addition
   - type: Fixtures
     fixtures:
       fix1:
