@@ -79,7 +79,7 @@
         WeldingFuel: 0.5
 
 - type: reagent
-  parent: BaseDrink
+  parent: BaseChilled
   id: Cocoon
   name: reagent-name-cocoon
   desc: reagent-desc-cocoon
@@ -161,7 +161,7 @@
         Fat: 0.5
 
 - type: reagent
-  parent: BaseDrink
+  parent: BaseChilled
   id: Uprooting
   name: reagent-name-uprooting
   desc: reagent-desc-uprooting

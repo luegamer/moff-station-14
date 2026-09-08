@@ -531,7 +531,7 @@
 - type: reagent
   id: Antifreeze
   name: reagent-name-antifreeze
-  parent: BaseAlcohol
+  parent: BaseChilledAlcohol # Moffstation - ice is now cold
   desc: reagent-desc-antifreeze
   physicalDesc: reagent-physical-desc-translucent
   flavor: antifreeze
@@ -589,7 +589,7 @@
 - type: reagent
   id: BahamaMama
   name: reagent-name-bahama-mama
-  parent: BaseAlcohol
+  parent: BaseChilledAlcohol # Moffstation - ice is now cold
   desc: reagent-desc-bahama-mama
   physicalDesc: reagent-physical-desc-tropical
   flavor: bahamamama
@@ -775,7 +775,7 @@
 - type: reagent
   id: CrushDepth
   name: reagent-name-crush-depth
-  parent: BaseAlcohol
+  parent: BaseChilledAlcohol # Moffstation - ice is now cold
   desc: reagent-desc-crush-depth
   physicalDesc: reagent-physical-desc-cloudy
   flavor: crushdepth
@@ -935,7 +935,7 @@
 - type: reagent
   id: ErikaSurprise
   name: reagent-name-erika-surprise
-  parent: BaseAlcohol
+  parent: BaseChilledAlcohol # Moffstation - ice is now cold
   desc: reagent-desc-erika-surprise
   physicalDesc: reagent-physical-desc-cloudy
   flavor: erikasurprise
@@ -990,7 +990,7 @@
 - type: reagent
   id: GinTonic
   name: reagent-name-gin-tonic
-  parent: BaseAlcohol
+  parent: BaseChilledAlcohol # Moffstation - ice is now cold
   desc: reagent-desc-gin-tonic
   physicalDesc: reagent-physical-desc-fizzy
   flavor: gintonic
@@ -1068,7 +1068,7 @@
 - type: reagent
   id: IcedBeer
   name: reagent-name-iced-beer
-  parent: BaseAlcohol
+  parent: BaseChilledAlcohol # Moffstation - ice is now cold
   desc: reagent-desc-iced-beer
   physicalDesc: reagent-physical-desc-bubbly
   flavor: icedbeer
@@ -1186,7 +1186,7 @@
 - type: reagent
   id: LongIslandIcedTea
   name: reagent-name-long-island-iced-tea
-  parent: BaseAlcohol
+  parent: BaseChilledAlcohol # Moffstation - ice is now cold
   desc: reagent-desc-long-island-iced-tea
   physicalDesc: reagent-physical-desc-strong-smelling
   flavor: longisland
@@ -1434,7 +1434,7 @@
 - type: reagent
   id: PinaColada
   name: reagent-name-pina-colada
-  parent: BaseAlcohol
+  parent: BaseChilledAlcohol # Moffstation - ice is now cold
   desc: reagent-desc-pina-colada
   physicalDesc: reagent-physical-desc-tropical
   flavor: pinacolada
@@ -1563,7 +1563,7 @@
 - type: reagent
   id: SnowWhite
   name: reagent-name-snow-white
-  parent: BaseAlcohol
+  parent: BaseChilledAlcohol # Moffstation - ice is now cold
   desc: reagent-desc-snow-white
   physicalDesc: reagent-physical-desc-bubbly
   flavor: snowwhite
@@ -1630,7 +1630,7 @@
 - type: reagent
   id: TheMartinez
   name: reagent-name-the-martinez
-  parent: BaseAlcohol
+  parent: BaseChilledAlcohol # Moffstation - ice is now cold
   desc: reagent-desc-the-martinez
   physicalDesc: reagent-physical-desc-vibrant
   flavor: themartinez
@@ -1995,7 +1995,7 @@
 - type: reagent
   id: Caipirinha
   name: reagent-name-caipirinha
-  parent: BaseAlcohol
+  parent: BaseChilledAlcohol # Moffstation - ice is now cold
   desc: reagent-desc-caipirinha
   physicalDesc: reagent-physical-desc-strong-smelling
   flavor: caipirinha

@@ -100,7 +100,7 @@
 - type: reagent
   id: IceCream
   name: reagent-name-ice-cream
-  parent: BaseSoda
+  parent: BaseChilledSoda # Moffstation - ice is now cold
   desc: reagent-desc-ice-cream
   physicalDesc: reagent-physical-desc-creamy
   flavor: icecream
@@ -160,7 +160,7 @@
 - type: reagent
   id: RootBeerFloat
   name: reagent-name-root-beer-float
-  parent: BaseSoda
+  parent: BaseChilledSoda # Moffstation - ice is now cold
   desc: reagent-desc-root-beer-float
   physicalDesc: reagent-physical-desc-fizzy-and-creamy
   flavor: rootbeerfloat

@@ -38,7 +38,7 @@
         factor: 2
 
 - type: reagent
-  parent: BaseAlcohol
+  parent: BaseChilledAlcohol
   id: PlantersPunch
   name: reagent-name-planters-punch
   desc: reagent-desc-planters-punch

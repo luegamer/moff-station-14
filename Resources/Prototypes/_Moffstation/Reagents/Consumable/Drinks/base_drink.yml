@@ -18,3 +18,84 @@
     amount: 0.25
   - !type:PlantAdjustWater
     amount: 0.7
+
+# Chilled drinks
+- type: reagent
+  id: BaseChilled # Moffstation - ice is now cold
+  parent: BaseDrink
+  abstract: true
+  metabolisms:
+    Digestion:
+      effects:
+      - !type:AdjustTemperature
+        amount: -2000
+  reactiveEffects:
+    Acidic:
+      methods: [ Touch ]
+      effects:
+      - !type:HealthChange
+        ignoreResistances: false
+        damage:
+          types:
+            Cold: 0.03
+      - !type:AdjustTemperature
+        conditions:
+        - !type:TemperatureCondition
+          min: 160.15
+        amount: -2000
+    Extinguish:
+      methods: [ Touch ]
+      effects:
+      - !type:Extinguish 
+
+- type: reagent
+  id: BaseChilledAlcohol # Moffstation - ice is now cold
+  parent: BaseAlcohol
+  abstract: true
+  metabolisms:
+    Digestion:
+      effects:
+      - !type:AdjustTemperature
+        amount: -2000
+  reactiveEffects:
+    Acidic:
+      methods: [ Touch ]
+      effects:
+      - !type:HealthChange
+        ignoreResistances: false
+        damage:
+          types:
+            Cold: 0.03
+      - !type:AdjustTemperature
+        conditions:
+        - !type:TemperatureCondition
+          min: 160.15
+        amount: -2000
+
+- type: reagent
+  id: BaseChilledSoda # Moffstation - ice is now cold
+  parent: BaseSoda
+  abstract: true
+  metabolisms:
+    Digestion:
+      effects:
+      - !type:AdjustTemperature
+        amount: -2000
+  reactiveEffects:
+    Acidic:
+      methods: [ Touch ]
+      effects:
+      - !type:HealthChange
+        ignoreResistances: false
+        damage:
+          types:
+            Cold: 0.03
+      - !type:AdjustTemperature
+        conditions:
+        - !type:TemperatureCondition
+          min: 160.15
+        amount: -2000
+    Extinguish:
+      methods: [ Touch ]
+      effects:
+      - !type:Extinguish 
