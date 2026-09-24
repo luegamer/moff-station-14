@@ -17,3 +17,4 @@ flavor-complex-solar-hurricane = like fruity pool water
 flavor-complex-uprooting = like bittersweet soil
 flavor-complex-wizard-ale = powerful and muscular
 flavor-complex-glass = like shards of glass
+flavor-complex-avalon-vice = refreshingly bitter

@@ -204,6 +204,11 @@
   physicalDesc: reagent-physical-desc-pungent
   flavor: bitter
   color: "#77b58e"
+  # Moffstation start - More refreshing drinks for birds, and ice is now cold!
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/ammoniaglass.rsi
+    state: icon_empty
+  # Moffstation end
   boilingPoint: -33.0
   meltingPoint: -77.7
   plantMetabolism:
@@ -306,6 +311,11 @@
   physicalDesc: reagent-physical-desc-strong-smelling
   flavor: bitter
   color: "#a1000b"
+  # Moffstation start - More refreshing drinks for birds, and ice is now cold!
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/diethylamineglass.rsi
+    state: icon_empty
+  # Moffstation end
   boilingPoint: 55.5
   meltingPoint: -50.0
   plantMetabolism:

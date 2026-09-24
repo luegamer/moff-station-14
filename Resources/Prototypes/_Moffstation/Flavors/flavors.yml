@@ -97,3 +97,8 @@
   id: glass
   flavorType: Base
   description: flavor-complex-glass
+
+- type: flavor
+  id: avalonvice
+  flavorType: Complex
+  description: flavor-complex-avalon-vice

@@ -54,3 +54,6 @@ reagent-desc-uprooting =  A complete breakfast in pudding form, created for a ce
 
 reagent-name-wizard-ale = Wizard Ale
 reagent-desc-wizard-ale = Brewed on a secret mountaintop by an eccentric wizard and their army of little owls, with hops harvested from the distant prairies.
+
+reagent-name-avalon-vice = Avalon Vice
+reagent-desc-avalon-vice = Made as a cultural fusion of the tropical and arctic, this frozen drink mixes two strong flavors into a refreshment not quite recommended for water-based patrons.

@@ -182,3 +182,26 @@
   plantMetabolism:
   - !type:PlantAdjustNutrition
     amount: 5
+
+- type: reagent
+  parent: BaseChilled
+  id: LunarSnowfall
+  name: reagent-name-lunar-snowfall
+  desc: reagent-desc-lunar-snowfall
+  physicalDesc: reagent-physical-desc-frigid
+  flavor: lunarsnowfall
+  color: "#cc91ff"
+  metamorphicSprite:
+    sprite: _Moffstation/Objects/Consumable/Drinks/lunarsnowfall.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 3
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Digestion:
+      effects:
+      - !type:SatiateThirst
+        factor: 5
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Avali ]

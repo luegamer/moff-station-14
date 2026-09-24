@@ -242,7 +242,7 @@
         conditions:
         - !type:TemperatureCondition
           min: 160.15
-        amount: -30000
+        amount: -300000 # Moffstation change - Upstream temperature changes make this barely do anything
     Extinguish:
       methods: [ Touch ]
       effects:
@@ -278,7 +278,7 @@
         conditions:
         - !type:TemperatureCondition
           min: 160.15 # not quite enough for cryo, but can speed it up if you wanna take the risk
-        amount: -10000
+        amount: -100000 # Moffstation change - Upstream temperature changes make this barely do anything
       - !type:MovementSpeedModifier
         conditions:
         - !type:ReagentCondition

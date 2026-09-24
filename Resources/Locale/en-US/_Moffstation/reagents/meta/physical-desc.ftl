@@ -8,3 +8,4 @@ reagent-physical-desc-verdant = verdant
 reagent-physical-desc-glistening = glistening
 reagent-physical-desc-secret = secret
 reagent-physical-desc-alive = alive
+reagent-physical-desc-antitropical = antitropical

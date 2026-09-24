@@ -39,6 +39,11 @@
   physicalDesc: reagent-physical-desc-lemony-fresh
   flavor: bitter
   color: "#c8ff69"
+  # Moffstation start - More refreshing drinks for birds, and ice is now cold!
+  metamorphicSprite:
+   sprite: Objects/Consumable/Drinks/spacecleanerglass.rsi
+   state: icon_empty
+  # Moffstation end
   recognizable: true
   boilingPoint: 147.0 # Made this up, loosely based on bleach
   meltingPoint: -11.0

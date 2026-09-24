@@ -21,14 +21,14 @@
 
 # Chilled drinks
 - type: reagent
-  id: BaseChilled # Moffstation - ice is now cold
+  id: BaseChilled
   parent: BaseDrink
   abstract: true
   metabolisms:
     Digestion:
       effects:
       - !type:AdjustTemperature
-        amount: -2000
+        amount: -20000
   reactiveEffects:
     Acidic:
       methods: [ Touch ]
@@ -42,21 +42,21 @@
         conditions:
         - !type:TemperatureCondition
           min: 160.15
-        amount: -2000
+        amount: -25000
     Extinguish:
       methods: [ Touch ]
       effects:
       - !type:Extinguish 
 
 - type: reagent
-  id: BaseChilledAlcohol # Moffstation - ice is now cold
+  id: BaseChilledAlcohol
   parent: BaseAlcohol
   abstract: true
   metabolisms:
     Digestion:
       effects:
       - !type:AdjustTemperature
-        amount: -2000
+        amount: -20000
   reactiveEffects:
     Acidic:
       methods: [ Touch ]
@@ -70,17 +70,17 @@
         conditions:
         - !type:TemperatureCondition
           min: 160.15
-        amount: -2000
+        amount: -25000
 
 - type: reagent
-  id: BaseChilledSoda # Moffstation - ice is now cold
+  id: BaseChilledSoda
   parent: BaseSoda
   abstract: true
   metabolisms:
     Digestion:
       effects:
       - !type:AdjustTemperature
-        amount: -2000
+        amount: -20000
   reactiveEffects:
     Acidic:
       methods: [ Touch ]
@@ -94,7 +94,7 @@
         conditions:
         - !type:TemperatureCondition
           min: 160.15
-        amount: -2000
+        amount: -25000
     Extinguish:
       methods: [ Touch ]
       effects:

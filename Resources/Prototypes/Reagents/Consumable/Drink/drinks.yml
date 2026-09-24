@@ -140,7 +140,7 @@
 - type: reagent
   id: IcedCoffee
   name: reagent-name-iced-coffee
-  parent: BaseChilled # Moffstation - ice is now cold
+  parent: BaseChilled # Moffstation - More refreshing drinks for birds, and ice is now cold!
   desc: reagent-desc-iced-coffee
   physicalDesc: reagent-physical-desc-aromatic
   flavor: coffee
@@ -166,7 +166,7 @@
 - type: reagent
   id: IcedGreenTea
   name: reagent-name-iced-green-tea
-  parent: BaseChilled # Moffstation - ice is now cold
+  parent: BaseChilled # Moffstation - More refreshing drinks for birds, and ice is now cold!
   desc: reagent-desc-iced-green-tea
   physicalDesc: reagent-physical-desc-aromatic
   flavor: icedtea
@@ -181,7 +181,7 @@
 - type: reagent
   id: IcedTea
   name: reagent-name-iced-tea
-  parent: BaseChilled # Moffstation - ice is now cold
+  parent: BaseChilled # Moffstation - More refreshing drinks for birds, and ice is now cold!
   desc: reagent-desc-iced-tea
   physicalDesc: reagent-physical-desc-aromatic
   flavor: icedtea
@@ -490,9 +490,9 @@
       effects:
       - !type:SatiateThirst
         factor: 3 # Slightly worse for quenching thirst than just straight water
-  # Moffstation start - ice is now cold
+  # Moffstation start - More refreshing drinks for birds, and ice is now cold!
       - !type:AdjustTemperature
-        amount: -2000
+        amount: -30000
   reactiveEffects:
     Acidic:
       methods: [ Touch ]
@@ -506,7 +506,7 @@
         conditions:
         - !type:TemperatureCondition
           min: 160.15
-        amount: -3000
+        amount: -50000
     Extinguish:
       methods: [ Touch ]
       effects:
@@ -553,7 +553,7 @@
 - type: reagent
   id: ArnoldPalmer
   name: reagent-name-arnold-palmer
-  parent: BaseChilled # Moffstation - ice is now cold (For some reason this was parenting off BaseAlcohol before?)
+  parent: BaseChilled # Moffstation - More refreshing drinks for birds, and ice is now cold! (For some reason this was parenting off BaseAlcohol before?)
   desc: reagent-desc-arnold-palmer
   physicalDesc: reagent-physical-desc-sweet
   flavor: arnoldpalmer
@@ -645,7 +645,7 @@
 - type: reagent
   id: Tortuga
   name: reagent-name-tortuga
-  parent: BaseChilled # Moffstation - ice is now cold
+  parent: BaseChilled # Moffstation - More refreshing drinks for birds, and ice is now cold!
   desc: reagent-desc-tortuga
   physicalDesc: reagent-physical-desc-sweet
   flavor: tortuga

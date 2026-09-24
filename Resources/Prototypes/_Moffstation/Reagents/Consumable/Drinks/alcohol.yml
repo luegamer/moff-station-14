@@ -244,3 +244,36 @@
       effects:
       - !type:SatiateThirst
         factor: 1
+
+- type: reagent
+  parent: BaseAlcoholChilled
+  id: AvalonVice
+  name: reagent-name-avalon-vice
+  desc: reagent-desc-avalon-vice
+  physicalDesc: reagent-physical-desc-antitropical
+  flavor: avalonvice
+  color: "#ff3b5a"
+  metamorphicSprite:
+    sprite: _Moffstation/Objects/Consumable/Drinks/avalonvice.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 3
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.2
+      effects:
+      - !type:HealthChange
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Avali ]
+          inverted: true
+        damage:
+          types:
+            Caustic: .15
+      - !type:SatiateThirst
+        factor: 5
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Avali ]
